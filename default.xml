@@ -271,7 +271,7 @@
   <project path="packages/apps/Browser" name="ParanoidAndroid/android_packages_apps_Browser" remote="github" revision="jellybean" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-10.1" />
   <project path="packages/apps/HALO" name="ParanoidAndroid/HALO" remote="github" revision="jellybean" />
-  <project path="packages/apps/PackageInstaller" name="ParanoidAndroid/android_packages_apps_PackageInstaller" remote="github" revision="jellybean" />
+  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="github" revision="cm-10.1" />
   <project path="packages/apps/Calendar" name="ParanoidAndroid/android_packages_apps_Calendar" remote="github" revision="jellybean" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
@@ -286,7 +286,7 @@
   <project path="packages/apps/Launcher2" name="ParanoidAndroid/android_packages_apps_Launcher2" remote="github" revision="jellybean" />
   <project path="packages/apps/Mms" name="ParanoidAndroid/android_packages_apps_Mms" remote="github" revision="jellybean" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-<project path="packages/apps/Nfc" name="ParanoidAndroid/android_packages_apps_Nfc" remote="github" revision="jellybean-legacy" />
+  <project path="packages/apps/Nfc" name="ParanoidAndroid/android_packages_apps_Nfc" remote="github" revision="jellybean-legacy" />
   <project path="packages/apps/ParanoidWallpapers" name="ParanoidAndroid/android_packages_apps_ParanoidWallpapers" remote="github" revision="jellybean" />
   <project path="packages/apps/Phone" name="ParanoidAndroid/android_packages_apps_Phone" remote="github" revision="jellybean-legacy" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
