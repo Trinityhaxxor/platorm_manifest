@@ -266,6 +266,7 @@
   <project path="libcore" name="ParanoidAndroid/android_libcore" remote="github" revision="jellybean" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
+  <project path="packages/apps/Babel" name="android_packages_apps_Babel" remote="github" revision="cm-10.1" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="ParanoidAndroid/android_packages_apps_Browser" remote="github" revision="jellybean" />
@@ -396,4 +397,7 @@
 <project name="Ayysir/android_kernel_samsung_d2" path="kernel/samsung/d2" remote="github" revision="cm-10.1" />
 <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-10.1" />
 <project path="vendor/pa" name="Ayysir/android_vendor_pa" remote="github" revision="jb-legacy" />
+<project path="external/koush/ion" name="CyanogenMod/ion" remote="github" revision="cm-10.1" />
+<project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" remote="github" revision="cm-10.1" />
+<project path="external/gson" name="linuxman94/android_external_gson" remote="github" revision="cm-10.1" />
 </manifest>
