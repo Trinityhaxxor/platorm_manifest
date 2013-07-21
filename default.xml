@@ -392,6 +392,6 @@
 <project path="vendor/pa" name="Ayysir/android_vendor_pa" remote="github" revision="jb-legacy" />
 <project path="external/koush/ion" name="CyanogenMod/ion" remote="github" revision="cm-10.1" />
 <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" remote="github" revision="cm-10.1" />
-<project path="external/gson" name="linuxman94/android_external_gson" remote="github" revision="cm-10.1" />
+<project path="external/gson" name="CyanogenMod/android_external_gson" remote="github" revision="cm-10.1" />
 <project path="packages/apps/ParanoidOTA" name="ParanoidAndroid/android_packages_apps_ParanoidOTA" remote="github" revision="jellybean" />
 </manifest>
