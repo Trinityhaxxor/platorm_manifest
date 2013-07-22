@@ -1,4 +1,4 @@
-ParanoidAndroid (D2TMO)
+ParanoidAndroid 
 ===============
 
 
@@ -14,7 +14,8 @@ To initialize your local repository using the ParanoidAndroid trees, use a comma
     cd ~/android		
     mkdir ~/android/PA	
     cd ~/android/PA
-    repo init -u https://ayysir@bitbucket.org/ayysir/platform_manifest.git -b jellybean
+    repo init -u git://github.com/Ayysir/platorm_manifest.git -b jellybean
+
 
 
 Then to sync up:
