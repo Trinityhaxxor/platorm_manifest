@@ -354,7 +354,7 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
-  <project path="paranoid" name="ayysir/paranoid" remote="bitbucket" revision="jellybean" >
+  <project path="paranoid" name="Ayysir/paranoid" remote="github" revision="jellybean" >
     <copyfile src="build.sh" dest="compiler.sh" />
   </project>
 
