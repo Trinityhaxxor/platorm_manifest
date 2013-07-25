@@ -14,7 +14,7 @@ To initialize your local repository using the ParanoidAndroid trees, use a comma
     cd ~/android		
     mkdir ~/android/PA	
     cd ~/android/PA
-    repo init -u git://github.com/Ayysir/platorm_manifest.git -b jellybean
+    repo init -u git://github.com/Ayysir/platorm_manifest.git -b jbl-4.3
 
 
 
