@@ -362,7 +362,7 @@
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/security" name="Ayysir/android_system_security" remote="github" revision="cm-10.1"  />
+  <project path="system/security" name="android_system_security" remote="me43" revision="cm-10.2"  />
   <project path="system/vold" name="android_system_vold" remote="cm" revision="cm-10.2" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
