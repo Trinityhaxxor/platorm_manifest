@@ -257,7 +257,7 @@
   <project path="frameworks/support" name="android_frameworks_support" remote="cm" revision="cm-10.1" />
   <project path="frameworks/testing" name="android_frameworks_testing" remote="cm" revision="cm-10.1" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
-  <project path="frameworks/webview" name="paltform/frameworks/webview" /> 
+  <project path="frameworks/webview" name="plattform/frameworks/webview" /> 
   <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="cm" revision="cm-10.1" />
   <project path="hardware/akm" name="platform/hardware/akm" /> 
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" /> 
