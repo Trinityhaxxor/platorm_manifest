@@ -41,7 +41,7 @@
   </project>
 
 <!--Device Trees -->
-<project name="Ayysir/android_device_samsung_d2tmo" path="device/samsung/d2tmo" remote="github" revision="cm-10.1" />
+<project name="android_device_samsung_d2tmo" path="device/samsung/d2tmo" remote="me43" revision="cm-10.2" />
 <project name="Ayysir/android_device_samsung_d2att" path="device/samsung/d2att" remote="github" revision="cm-10.1" />
 <project name="Ayysir/android_device_samsung_d2spr" path="device/samsung/d2spr" remote="github" revision="cm-10.1" />
 <project name="Ayysir/android_device_samsung_d2mtr" path="device/samsung/d2mtr" remote="github" revision="cm-10.1" />
