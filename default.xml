@@ -76,7 +76,7 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" />
+ <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cm" revision="cm-10.2" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/busybox" name="ParanoidAndroid/android_external_busybox" remote="github" revision="jellybean" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
@@ -130,7 +130,7 @@
   <project path="external/jhead" name="platform/external/jhead" />
   <project path="external/jmdns" name="platform/external/jmdns" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" />
-  <project path="external/jpeg" name="Ayysir/android_external_jpeg" remote="github" revision="jb43" />
+  <project path="external/jpeg" name="android_external_jpeg" remote="cm" revision="cm-10.2" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
@@ -160,7 +160,7 @@
   <project path="external/libyuv" name="platform/external/libyuv" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
-  <project path="external/llvm" name="android_external_llvm" remote="lnx" revision="jellybean" />
+  <project path="external/llvm" name="android_external_llvm" remote="cm" revision="cm-10.2" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" /> 
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
@@ -252,7 +252,7 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cm" revision="cm-10.2"  />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/rs" name="ParanoidAndroid/android_frameworks_rs" remote="github" revision="jb43" />
+  <project path="frameworks/rs" name="ParanoidAndroid/android_frameworks_rs" remote="github" revision="jb43-staging" />
   <project path="frameworks/support" name="android_frameworks_support" remote="cm" revision="cm-10.2" />
   <project path="frameworks/testing" name="android_frameworks_testing" remote="cm" revision="cm-10.2" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
@@ -282,7 +282,7 @@
   <project path="packages/apps/Calendar" name="ParanoidAndroid/android_packages_apps_Calendar" remote="github" revision="jellybean" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="lnx" revision="jellybean" />
+  <project path="packages/apps/Contacts" name="ParanoidAndroid/android_packages_apps_Contacts" remote="github" revision="jb43" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" /> 
   <project path="packages/apps/DeskClock" name="ParanoidAndroid/android_packages_apps_DeskClock" remote="github" revision="jb43" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" /> 
@@ -398,8 +398,8 @@
 <project name="android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="cm" revision="cm-10.2" />
 <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-10.2" />
 <project name="Ayysir/android_device_samsung_d2-common" path="device/samsung/d2-common" remote="github" revision="cm-10.1" />
-<project name="Ayysir/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" revision="cm-10.1" />
-<project name="Ayysir/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="cm-10.1" />
+<project name="Ayysir/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="me43" revision="cm-10.2" />
+<project name="Ayysir/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="me43" revision="cm-10.2" />
 <project name="Ayysir/android_kernel_samsung_d2" path="kernel/samsung/d2" remote="github" revision="cm-10.1" />
 <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.2" />
 <project path="vendor/pa" name="android_vendor_pa" remote="me43" revision="jbl-4.3" />
