@@ -387,7 +387,6 @@
 <project path="external/gson" name="CyanogenMod/android_external_gson" remote="github" revision="cm-10.1" />
 <project path="packages/apps/ParanoidOTA" name="ParanoidAndroid/android_packages_apps_ParanoidOTA" remote="github" revision="jellybean" />
 <!--Focal-->
-<project path="external/Focal" name="android_external_Focal" remote="cm" revision="cm-10.1" />
 <project path="packages/apps/Focal" name="android_packages_apps_Focal" remote="cm" revision="cm-10.1" />
 <!--Gallery-->
 <project path="packages/apps/Gallery" name="android_packages_apps_Gallery" remote="cm" revision="cm-10.1" />
