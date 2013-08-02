@@ -19,7 +19,7 @@
 
   <remote name="cm"
            fetch="https://github.com/CyanogenMod"
-           review="review.cyanogenmod.com" />
+           review="review.cyanogenmod.org" />
 
   <remote name="lnx"
            fetch="https://github.com/linuxman94" />
