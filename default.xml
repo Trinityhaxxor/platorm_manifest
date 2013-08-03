@@ -256,7 +256,7 @@
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="me43" revision="jb43"  />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="pa" revision="jb43"  />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="android_frameworks_rs" remote="pa" revision="jb43" />
@@ -280,7 +280,6 @@
   <project path="libcore" name="Ayysir/android_libcore" remote="github" revision="jb43" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
-  <project path="packages/apps/VoicePlus" name="android_packages_apps_VoicePlus" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project name="manelscout4life/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="jb43" />
   <project path="packages/apps/Browser" name="ParanoidAndroid/android_packages_apps_Browser" remote="github" revision="jb43" />
@@ -426,9 +425,6 @@
 <project name="android_device_samsung_jf-common" path="device/samsung/jf-common" remote="me43" revision="cm-10.2" />
 <project name="android_kernel_samsung_jf" path="kernel/samsung/jf" remote="me43" revision="cm-10.2" />
 <project name="android_kernel_samsung_d2" path="kernel/samsung/d2" remote="me43" revision="cm-10.2" />
-<project path="external/koush/ion" name="ion" remote="cm" revision="cm-10.2" />
-<project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-10.2" />
-<project path="external/gson" name="android_external_gson" remote="cm" revision="cm-10.2" />
 <project path="packages/apps/ParanoidOTA" name="ParanoidAndroid/android_packages_apps_ParanoidOTA" remote="github" revision="jellybean" />
 <project name="Glxytools" path="glxytools" remote="me43" revision="jb" />
 </manifest>
