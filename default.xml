@@ -269,19 +269,19 @@
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" /> 
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project name="CyanogenMod/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="cm-10.2" />
-  <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="me43" revision="cm-10.2" />
+  <project name="android_hardware_libhardware" path="hardware/libhardware" remote="cm" revision="cm-10.2" />
+  <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="cm" revision="cm-10.2" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.2" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="libcore" name="Ayysir/android_libcore" remote="github" revision="jb43" />
+  <project path="libcore" name="android_libcore" remote="pa" revision="jb43" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project name="manelscout4life/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="jb43" />
+  <project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Browser" name="ParanoidAndroid/android_packages_apps_Browser" remote="github" revision="jb43" />
   <project path="packages/apps/HALO" name="HALO" remote="pa" revision="jellybean" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="cm-10.2" />
