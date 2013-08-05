@@ -399,7 +399,7 @@
 <!--Vendors-->
 <project name="android_vendor_cm" path="vendor/cm" remote="cm" revision="cm-10.2" />
 <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-10.2" />
-<project path="vendor/pa" name="android_vendor_pa" remote="me43" revision="exp43" />
+<project path="vendor/pa" name="android_vendor_pa" remote="me43" revision="jb43-legacy" />
 <!--QCOM-->
 <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.2" />
 <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.2" />
