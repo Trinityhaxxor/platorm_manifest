@@ -64,7 +64,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="android_dalvik" remote="lnx" revision="jb43" />
+  <project path="dalvik" name="android_dalvik" remote="pa" revision="jb43" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.2" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
@@ -150,7 +150,7 @@
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" groups="pdk" remote="cm" revision="cm-10.2" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" />
@@ -301,14 +301,14 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="ParanoidAndroid/android_packages_apps_Launcher2" remote="github" revision="jb43" />
-  <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="pa" revision="jb43" />
+  <project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="pa" revision="jb43-legacy" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/ParanoidWallpapers" name="android_packages_apps_ParanoidWallpapers" remote="pa" revision="jellybean" />
-  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="pa" revision="jb43" />
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="pa" revision="jb43-legacy" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" /> 
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
@@ -418,7 +418,7 @@
 <project name="android_frameworks_base" path="frameworks/base" remote="me43" revision="jb43-legacy" />
 <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="me43" revision="jb43-legacy" />
 <project path="system/core" name="android_system_core" remote="me43" revision="exp" />
-<project path="system/extras" name="android_system_extras" remote="me43" revision="jbl-4.3" />
+<project path="system/extras" name="android_system_extras" remote="pa" revision="jb43" />
 <project name="android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="cm" revision="cm-10.2" />
 <project name="android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="cm" revision="cm-10.2" />
 <project name="android_device_samsung_d2-common" path="device/samsung/d2-common" remote="me43" revision="cm-10.2" />
