@@ -62,7 +62,7 @@
   <project path="bionic" name="ParanoidAndroid/android_bionic" remote="github" revision="jb43" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" revision="cm-10.2" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="android_dalvik" remote="pa" revision="jb43" />
   <project path="development" name="platform/development" />
