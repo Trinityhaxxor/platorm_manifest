@@ -232,7 +232,8 @@
   <project path="external/webkit" name="android_external_webkit" remote="pa" revision="jb43" />
   <project path="external/webp" name="aaronpoweruser/android_external_webp" remote="github" revision="jb43" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" revision="cm-10.2" />
+  <project path="external/wpa_supplicant_8_ti" name="android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-10.2" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
@@ -267,7 +268,7 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" /> 
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="cm" revision="cm-10.2" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-10.2" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="cm" revision="cm-10.2" />
   <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="cm" revision="cm-10.2" />
@@ -275,7 +276,7 @@
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.2" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libcore" name="android_libcore" remote="pa" revision="jb43" />
   <project path="libnativehelper" name="platform/libnativehelper" />
@@ -415,7 +416,7 @@
 <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" revision="cm-10.2" />
 <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.2" />
 <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="cm" revision="cm-10.2" />
-<project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
+<project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-10.2" />
 <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.2" />
 <!--Essentials-->
 <project name="android_frameworks_base" path="frameworks/base" remote="me43" revision="jb43-legacy" />
