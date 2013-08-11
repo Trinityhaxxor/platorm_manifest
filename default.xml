@@ -38,7 +38,7 @@
            review="review.evervolv.com"/>
 
 
-  <default revision="refs/tags/android-4.3_r2.1"
+  <default revision="refs/tags/android-4.3_r1"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -208,7 +208,7 @@
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
-  <project path="external/skia" name="android_external_skia" remote="pa" revision="jb43" />
+  <project path="external/skia" name="platform/external/skia" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -261,7 +261,7 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="pa" revision="jb43-legacy"  />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-10.2" />
-  <project path="frameworks/rs" name="ParanoidAndroid/android_frameworks_rs" remote="github" revision="jb43" />
+  <project path="frameworks/rs" name="platform/frameworks/rs" />
   <project path="frameworks/support" name="android_frameworks_support" remote="cm" revision="cm-10.2" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
