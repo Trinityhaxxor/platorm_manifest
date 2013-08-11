@@ -409,6 +409,7 @@
 <project name="android_device_samsung_jf-common" path="device/samsung/jf-common" remote="me43" revision="cm-10.2" />
 <project name="android_device_samsung_d2-common" path="device/samsung/d2-common" remote="me43" revision="cm-10.2" />
 <project name="android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="cm" revision="cm-10.2" />
+<project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-10.2" />
 <project path="packages/apps/ParanoidOTA" name="ParanoidAndroid/android_packages_apps_ParanoidOTA" remote="github" revision="jellybean" />
 <project name="Glxytools" path="glxytools" remote="me43" revision="jb" />
 </manifest>
