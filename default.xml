@@ -47,10 +47,17 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-
+-<!--Device Trees -->
+<project name="android_device_samsung_d2tmo" path="device/samsung/d2tmo" remote="me43" revision="cm-10.2" />
+<project name="Ayysir/android_device_samsung_d2att" path="device/samsung/d2att" remote="github" revision="cm-10.2" />
+<project name="Ayysir/android_device_samsung_d2spr" path="device/samsung/d2spr" remote="github" revision="cm-10.2" />
+<project name="Ayysir/android_device_samsung_d2mtr" path="device/samsung/d2mtr" remote="github" revision="cm-10.2" />
+<project name="Ayysir/android_device_samsung_d2usc" path="device/samsung/d2usc" remote="github" revision="cm-10.2" />
+<project name="Ayysir/android_device_samsung_d2vzw" path="device/samsung/d2vzw" remote="github" revision="cm-10.2" />
 <project name="Ayysir/android_device_samsung_jfltetmo" path="device/samsung/jfltetmo" remote="github" revision="cm-10.2" />
 <project name="Ayysir/android_device_samsung_jflteatt" path="device/samsung/jflteatt" remote="github" revision="cm-10.2" />
 <project name="Ayysir/android_device_samsung_jfltecan" path="device/samsung/jfltecan" remote="github" revision="cm-10.2" />
+<!--end-->
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="ParanoidAndroid/android_bionic" remote="github" revision="jb43" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
