@@ -57,6 +57,7 @@
 <project name="Ayysir/android_device_samsung_jfltetmo" path="device/samsung/jfltetmo" remote="github" revision="cm-10.2" />
 <project name="Ayysir/android_device_samsung_jflteatt" path="device/samsung/jflteatt" remote="github" revision="cm-10.2" />
 <project name="Ayysir/android_device_samsung_jfltecan" path="device/samsung/jfltecan" remote="github" revision="cm-10.2" />
+<project name="Ayysir/android_device_samsung_jfltevzw" path="device/samsung/jfltevzw" remote="github" revision="cm-10.2" />
 <!--end-->
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="ParanoidAndroid/android_bionic" remote="github" revision="jb43" />
